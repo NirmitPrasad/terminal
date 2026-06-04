@@ -24,7 +24,7 @@ AccessibilityNotifier::AccessibilityNotifier()
     // Mirrors _timerEmitMSAA / _timerEmitUIA
     memset(&_state, 0, sizeof(_state));
 }
-
+##
 AccessibilityNotifier::~AccessibilityNotifier()
 {
     SetUIAProvider(nullptr);
